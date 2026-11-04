@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="saffronGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A33" />
+      <stop offset="100%" stop-color="#FF5100" />
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B2545" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+  <!-- Background Sun / Halo -->
+  <circle cx="60" cy="55" r="42" fill="#FFF7ED" stroke="#FED7AA" stroke-width="2"/>
+  <path d="M25 60 C35 30, 85 30, 95 60" fill="none" stroke="url(#saffronGrad)" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Auspicious Mandir Kalash Silhouette -->
+  <path d="M60 16 L65 26 L55 26 Z" fill="#FF5100"/>
+  <circle cx="60" cy="14" r="3" fill="#E05300"/>
+  
+  <!-- Ganesha Trunk / Iconography -->
+  <path d="M60 27 C68 27, 74 34, 74 42 C74 52, 60 55, 60 64 C60 67, 63 68, 66 67 C68 66, 68 62, 65 62" 
+        fill="none" stroke="#FF5100" stroke-width="4" stroke-linecap="round"/>
+  <!-- Tilak / Modak dot -->
+  <ellipse cx="53" cy="36" rx="2.5" ry="4" fill="#FF5100"/>
+  <circle cx="60" cy="34" r="2" fill="#E05300"/>
+  <path d="M48 42 C48 38, 52 35, 56 35" fill="none" stroke="#FF5100" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Mountain Peaks in Background -->
+  <polygon points="30,70 46,48 58,70" fill="#93C5FD" opacity="0.4"/>
+  <polygon points="62,70 76,52 90,70" fill="#60A5FA" opacity="0.4"/>
+
+  <!-- Road Ribbon with Dashes -->
+  <path d="M15 88 C35 72, 70 95, 105 78 C98 84, 80 102, 18 96 Z" fill="url(#roadGrad)"/>
+  <path d="M24 90 C45 80, 72 90, 98 81" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="4 4" stroke-linecap="round"/>
+</svg>
